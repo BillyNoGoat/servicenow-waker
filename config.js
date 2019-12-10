@@ -1,4 +1,5 @@
 module.exports = {
   username: "",
-  password: ""
+  password: "",
+  notifications: true
 };
