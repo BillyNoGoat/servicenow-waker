@@ -9,7 +9,7 @@
   "author": "Billy",
   "license": "ISC",
   "dependencies": {
-    "node-notifier": "^6.0.0",
+    "node-notifier": "^8.0.1",
     "puppeteer": "^1.13.0"
   }
 }
