@@ -18,7 +18,7 @@ async function run(index) {
 		if (response.url().includes("developer.servicenow.com/api/snc/v1/dev/instanceInfo")){
 			const res = (await response.json()).result.instanceInfo;
 			// if(res.wakeupInProgress) console.log(``);
-			console.log(JSON.stringify(res, null, 2));
+			// console.log(JSON.stringify(res, null, 2));
 			const out = {
 				name: res.name,
 				release: res.release,
